@@ -1,0 +1,20 @@
+# Ignore Simulink auto-generated folders and files
+slprj/
+*.slxc
+*.asv
+*.autosave
+*.mdl.r2019*  # Old model versioning, just in case
+
+# MATLAB project files (optional)
+*.prj
+
+# Ignore backup and crash files
+*.bak
+*.tmp
+*.log
+*.~*
+
+# Ignore hidden system files (common on Windows/macOS)
+.DS_Store
+Thumbs.db
+desktop.ini
