@@ -42,3 +42,9 @@ This repository contains a Simulink-based simulation project to model and contro
 1. Clone the repository:
    ```bash
    git clone https://github.com/DhanushGit03/DCMotorSpeedControlSimulation.git
+2. Open the .prj file in MATLAB by navigating to the cloned folder using the Open Folder option.
+3. ![Machine Properties](images/image1.png)Now right-click on the Simulink model and select Model Properties.
+4. Navigate to the Call Backs tab, then paste the saved file contents from Machine_Parameters.m into the appropriate callback section (such as InitFcn).
+5. Click Apply and then OK.
+
+6. Click the Run button in Simulink to start the simulation.
